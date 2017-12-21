@@ -1,6 +1,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # User Manager
+
+###How to run
 open up powershell on windows and run command as
 bash ./run.sh
 ensure the mongo server and node docker are running
@@ -11,7 +13,9 @@ go to browser and enter url --http://192.168.59.100:3001/user: to test
 
 note the ip may differ in your machine and my node app is mapped to port:3001
 
+
 go 
+
 This repository contains a simple demo API built with NodeJS.
 The API is used to manage users in a MongoDB database.
 
