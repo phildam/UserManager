@@ -1,10 +1,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # User Manager
+Install docker on your machine,  in my case I could not install the latest docker version which had support for windows 10 pro.  Docker provides support for older versions of windows also, so lookup on dockers website on how to get the docker legacy support. During installation docker legacy version will install various tools on your machine. Look-up to the website on further installation steps. 
 
-###How to run
-open up powershell on windows and run command as
-bash ./run.sh
+open up powershell on windows and run command as 
+bash ./run.sh in the folder where your app is
 ensure the mongo server and node docker are running
 copy the ip from the initial msg like tcp://192.168.59.100:port
 or run $Env:DOCKER_HOST in another powershell instance.
